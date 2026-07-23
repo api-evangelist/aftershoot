@@ -1,7 +1,12 @@
 aid: aftershoot
 name: AfterShoot
-description: AfterShoot is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aftershoot is a Techstars-backed company building desktop AI software for professional
+  photographers that automates the post-shoot workflow. Its applications cull large photo sets by
+  detecting duplicates, blinks, blur, and composition to pick the best frames, apply personalized
+  AI editing that learns a photographer's style, and perform AI retouching, plus tools for building
+  client galleries and selects. Aftershoot integrates with Adobe Lightroom Classic and Capture One
+  and runs locally on macOS and Windows. There is no public web API, developer portal, or OpenAPI
+  surface; the public code presence is internal Rust/Kotlin tooling on GitHub.
 url: https://raw.githubusercontent.com/api-evangelist/aftershoot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aftershoot.com/wp-content/uploads/2025/10/Meta-Image-about-us.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Photography
+- Artificial Intelligence
+- Machine Learning
+- Image Processing
+- Photo Culling
+- Photo Editing
+- Retouching
+- Desktop Software
+- Creative Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aftershoot-domain-security.yml
 - type: Website
-  url: https://aftershoot.co/
+  url: https://aftershoot.com/
+- type: Documentation
+  url: https://support.aftershoot.com/en/
+- type: Support
+  url: https://aftershoot.com/support/
+- type: Blog
+  url: https://aftershoot.com/blog/
+- type: Pricing
+  url: https://aftershoot.com/pricing/
+- type: SignUp
+  url: https://account.aftershoot.com/auth?signup=true
+- type: Login
+  url: https://account.aftershoot.com/login
+- type: TermsOfService
+  url: https://aftershoot.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://aftershoot.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/aftershootco
+- type: Roadmap
+  url: https://aftershoot.com/roadmap-2026/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
