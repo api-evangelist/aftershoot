@@ -44,7 +44,7 @@ tags:
 - Company
 - Photography
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Image Processing
 - Photo Culling
 - Photo Editing
@@ -62,6 +62,7 @@ tags_raw:
 - Retouching
 - Desktop Software
 - Creative Tools
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
