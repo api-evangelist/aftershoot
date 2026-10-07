@@ -1,0 +1,49 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://account.aftershoot.com/pricing
+sources:
+- https://account.aftershoot.com/pricing
+- https://aftershoot.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Select
+published: true
+note: Annual vs monthly toggle; crossed-out monthly prices $15/$35/$25/$55 also shown. Free 30-Day Trial
+  mentioned.
+plan_count: 4
+currency: USD
+plans:
+- name: Select
+  price_text: $12 /m
+  price: 12
+  currency: USD
+  period: month
+  included_quota: AI-driven image selections, duplicate grouping, & key face detection
+- name: Edit
+  price_text: $32 /m
+  price: 32
+  currency: USD
+  period: month
+  included_quota: Ai Marketplace Styles, AI-driven cropping, straightening, and masking
+- name: Retouch
+  price_text: $22 /m
+  price: 22
+  currency: USD
+  period: month
+  included_quota: Portrait Retouching, Retouching Presets, and Batch Sync
+- name: Complete
+  price_text: $50 /m
+  price: 50
+  currency: USD
+  period: month
+  included_quota: Select Edit Retouch
+  overage: Added $30 cancellation fee if cancelled before 6 months
