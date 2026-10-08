@@ -47,3 +47,39 @@ plans:
   period: month
   included_quota: Select Edit Retouch
   overage: Added $30 cancellation fee if cancelled before 6 months
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - subscription
+  units: []
+  plans:
+  - name: Select
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Edit
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Retouch
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Complete
+    access: other
+    model: hybrid
+    model_how: derived
+    units: []
+    periods:
+    - month
